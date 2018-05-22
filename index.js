@@ -10,14 +10,14 @@ function nowServing(line) {
     return (`Currently serving ${line.shift()}.`);
   }
 }
-function currentLine(lineNow) {
-  if (lineNow.length === 0) {
+function currentLine(line) {
+  if (line.length === 0) {
     return ('The line is currently empty.');
-  } else {
-    var lineNum = [];
-    for (var i = 0; i < lineNow.length; i++) {
-     lineNum.push(' ' + (i + 1) + '. ' + lineNow[i]);
+  }else{
+    var NameNumber = [];
+    for (var i=0; i < line.length; i++) {
+      NameNumber.push((i+1) + '. ' + line[i]);
     }
-     return ('The line is currently:' + lineNum);
+    return ('The line is currently: ' + NameNumber.join(', '));
   }
 }
