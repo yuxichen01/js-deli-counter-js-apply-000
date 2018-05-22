@@ -1,11 +1,11 @@
 var katzDeli = [];
+var counter = 1;
 function takeANumber(katzDeli, newPerson) {
   katzDeli.push(newPerson);
   return ('Welcome, ' + newPerson + '. You are number ' + katzDeli.length + ' in line.');
 }
 
 function takeANumber(line){
-  var counter = 1;
   line.push(counter);
   counter++;
 //  if (line.length === 1) {
