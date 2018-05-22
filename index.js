@@ -10,7 +10,7 @@ function takeANumber(line){
   counter++;
 //  if (line.length === 1) {
 //  for (i=0; i < line.length; i++)
-  return ("Welcome. You're ticket number #" + counter);
+  return ("Welcome. You're ticket number #" + counter - 1);
   
 }
 
