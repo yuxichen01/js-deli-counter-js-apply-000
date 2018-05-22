@@ -3,6 +3,18 @@ function takeANumber(katzDeli, newPerson) {
   katzDeli.push(newPerson);
   return ('Welcome, ' + newPerson + '. You are number ' + katzDeli.length + ' in line.');
 }
+
+function takeANumber(line){
+  
+}
+
+// takeANumber(katzDeli) => 'Welcome. You're ticket number #1.' [1]
+// takeANumber(katzDeli) => 'Welcome. You're ticket number #2.' [1,2]
+
+// nowServing(katzDeli) => 'Currently serving: 1' [2]
+// nowServing(katzDeli) => 'Currently serving: 2' []
+
+
 function nowServing(line) {
   if (line.length === 0) {
     return ('There is nobody waiting to be served!');
