@@ -5,8 +5,9 @@ function takeANumber(katzDeli, newPerson) {
 }
 
 function takeANumber(line){
-  if (line.length === 1) {
-  for (i=0; i < line.length; i++)
+  var 
+//  if (line.length === 1) {
+//  for (i=0; i < line.length; i++)
   return ("Welcome. You're ticket number #" + [i] );
   
 }
