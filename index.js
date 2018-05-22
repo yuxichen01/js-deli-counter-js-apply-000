@@ -5,7 +5,8 @@ function takeANumber(katzDeli, newPerson) {
 }
 
 function takeANumber(line){
-  
+  var emptyLine = [];
+  emptyLine.push()
 }
 
 // takeANumber(katzDeli) => 'Welcome. You're ticket number #1.' [1]
@@ -13,6 +14,8 @@ function takeANumber(line){
 
 // nowServing(katzDeli) => 'Currently serving: 1' [2]
 // nowServing(katzDeli) => 'Currently serving: 2' []
+
+// takeANumber(katzDeli) => 'Welcome. You're ticket number #3' [3]
 
 
 function nowServing(line) {
