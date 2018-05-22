@@ -5,8 +5,9 @@ function takeANumber(katzDeli, newPerson) {
 }
 
 function takeANumber(line){
-  var emptyLine = [];
-  emptyLine.push()
+  for (i=0; i < line.length; i++)
+  return ("Welcome. You're ticket number #" + [i] );
+  
 }
 
 // takeANumber(katzDeli) => 'Welcome. You're ticket number #1.' [1]
