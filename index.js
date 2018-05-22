@@ -5,10 +5,12 @@ function takeANumber(katzDeli, newPerson) {
 }
 
 function takeANumber(line){
-  var 
+  var counter = 1;
+  line.push(counter);
+  counter++;
 //  if (line.length === 1) {
 //  for (i=0; i < line.length; i++)
-  return ("Welcome. You're ticket number #" + [i] );
+  return ("Welcome. You're ticket number #" + counter);
   
 }
 
